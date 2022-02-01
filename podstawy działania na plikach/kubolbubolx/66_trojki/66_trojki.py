@@ -1,9 +1,11 @@
+#1. wyswietl wszystkie linie z pliku 66_trojki.txt
 def zad_1(file):
     for line in file:
         print(line)
     return 0
 
 
+#2. wyswietl kazda linijke z pliku jako liste
 def zad_2(file):
     for line in file:
         line = line.split()
@@ -11,6 +13,7 @@ def zad_2(file):
     return 0
 
 
+#3.wyswietl sume liczb w kazdej linice
 def zad_3(file):
     for line in file:
         suma = 0
@@ -21,6 +24,7 @@ def zad_3(file):
     return 0
 
 
+#3.wyswietl sume liczb w kazdej linice
 def zad_3_2(file):
     for line in file:
         line = line.split()
@@ -32,6 +36,9 @@ def zad_3_2(file):
     return 0
 
 
+#4. wyswietl tylko te linijki z pliku, dla ktorych suma 
+#liczb z pierwszej i drugiej kolumny jest wieksza trzeciej
+#podaj ich ilosc
 def zad_4(file):
     counter = 0
     for line in file:
@@ -48,6 +55,9 @@ def zad_4(file):
     return 0
 
 
+#5. wypisz wszytkie trojki liczb, w których suma cyfr dwóch 
+#pierwszych liczb jest równa liczbie trzeciej
+# 12 491 17         1+2+4+9+1=17
 def zad_5(file):
     for line in file:
         line = line.split()
