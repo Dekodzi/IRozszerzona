@@ -64,5 +64,5 @@ def zad_5(file):
     return 0
 
 file = open("66_trojki", "r")
-zad_5(file)
+
 file.close()
